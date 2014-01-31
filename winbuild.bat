@@ -1,10 +1,9 @@
 @rem  $%BEGINLICENSE%$
 @rem  $%ENDLICENSE%$
 @echo "Run this from a shell started with the Visual Studio Build environment set!"
-
 @IF DEFINED GENERATOR (GOTO GENERAL_CONF)
 @rem Sane default is VS2005, but maybe not what we really want...
-@SET GENERATOR="Visual Studio 8 2005"
+@SET GENERATOR="Visual Studio 9 2008"
 @GOTO GENERAL_CONF
 
 :GENERAL_CONF
@@ -12,7 +11,7 @@
 @echo Using %GENERATOR%
 
 @rem MSVC 8 2005 doesn't seem to have devenv.com
-@SET VS_CMD="%VS90COMNTOOLS%\..\IDE\VCExpress.exe"
+@SET VS_CMD="%VS90COMNTOOLS%\..\IDE\devenv.exe"
 
 @rem clear the cache if neccesary to let cmake recheck everything
 @rem del CMakeCache.txt

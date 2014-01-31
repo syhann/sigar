@@ -1,0 +1,16 @@
+t_sigar_cpu 1 0.0280037
+t_sigar_fs 0 0
+t_sigar_loadavg 1 0.0350037
+t_sigar_mem 1 0.0925102
+t_sigar_netconn 0 0
+t_sigar_netif 1 0.365046
+t_sigar_pid 1 0.0470047
+t_sigar_proc 0 0
+t_sigar_reslimit 1 0.571074
+t_sigar_swap 1 0.886614
+t_sigar_sysinfo 1 0.512066
+t_sigar_uptime 1 1.43418
+---
+t_sigar_fs
+t_sigar_netconn
+t_sigar_proc

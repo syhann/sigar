@@ -5,4 +5,5 @@ EXTRA_DIST=\
 	sigar.rc.in \
 	sigar_os.h \
 	sigar_pdh.h \
+	wmi.cpp	\
 	win32_sigar.c 
